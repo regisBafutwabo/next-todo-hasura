@@ -1,0 +1,7 @@
+table:
+  name: users
+  schema: public
+object_relationships:
+- name: todo
+  using:
+    foreign_key_constraint_on: todo_id
